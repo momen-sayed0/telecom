@@ -1,0 +1,628 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     scroll-behavior: smooth;
+}
+
+body {
+     background-color: rgb(36, 36, 36);
+     direction: rtl;
+}
+
+header {
+     width: 70%;
+     margin: auto;
+     justify-content: space-between;
+     display: flex;
+     flex-wrap: wrap;
+     font-size: 25px;
+}
+
+header .Telelogo {
+     width: 24%;
+     padding: 30px 20px;
+     font-weight: bold;
+}
+
+header .Telelogo a {
+     color: white;
+     text-decoration: none;
+     font-size: 32px;
+     font-family: "Raleway", sans-serif;
+}
+
+header .Telelogo a #T {
+     color: red;
+}
+
+header .Telelogo a #C {
+     color: blue;
+}
+
+header .nav {
+     width: 65%;
+     font-weight: bold;
+     padding: 30px 20px;
+}
+
+header .nav ul {
+     list-style-type: none;
+     display: flex;
+     justify-content: flex-end;
+     flex-wrap: wrap;
+}
+
+header .nav ul li {
+     margin-left: 5px;
+     padding: 10px;
+}
+
+header .nav ul li .StarButton {
+     font-size: 16px;
+     color: white;
+     border: 1px solid white;
+     border-radius: 5px;
+     padding: 15px 20px;
+     width: 100px;
+     font-weight: 300;
+     transition: 0.5s;
+}
+
+header .nav ul li .StarButton:hover {
+     background-color: red !important;
+     color: white !important;
+}
+
+header .nav ul li a {
+     text-decoration: none;
+     font-size: 16px;
+     color: white;
+     cursor: pointer;
+     transition: 1s;
+     font-family: "Raleway", sans-serif;
+}
+
+header .nav ul li a:hover {
+     color: red !important;
+}
+
+.container {
+     width: 70%;
+     margin: 0px auto;
+}
+
+.container {
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 100px;
+     flex-direction: row-reverse;
+}
+
+.container .img {
+     text-align: center;
+     width: 50%;
+}
+
+.container .img img {
+     width: 90%;
+     margin-top: 100px;
+}
+
+.container .Teletext {
+     width: 50%;
+}
+
+.container .Teletext h1 {
+     color: rgb(196, 196, 196);
+     font-size: 48px;
+     font-weight: bold;
+     padding-top: 150px;
+     margin-right: -90px;
+     margin-top: 30px;
+     font-family: "Raleway", sans-serif;
+}
+
+.container .Teletext p {
+     color: white;
+     font-size: 21px;
+     font-weight: 400;
+     margin-right: -90px;
+     margin-top: 50px;
+     margin-bottom: 60px;
+     font-family: "Raleway", sans-serif;
+}
+
+.container .Teletext a {
+     color: white;
+     background-color: red;
+     text-decoration: none;
+     font-size: 16px;
+     border-radius: 5px;
+     box-shadow: 2px 2px 15px 1px blue;
+     padding: 12px 30px;
+     transition: all 0.5s;
+     margin-right: -90px;
+     font-family: "Raleway", sans-serif;
+}
+
+.container.Teletext a:hover {
+     background-color: blue;
+     box-shadow: 2px 2px 15px 1px red;
+     border-radius: 10px;
+}
+
+.container2 {
+     width: 90%;
+     margin: 0px auto;
+}
+
+.sections {
+     background-color: rgb(36, 36, 36);
+     color: white;
+     padding: 50px;
+     text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.sections .services {
+     width: 100%;
+     margin-bottom: 50px;
+}
+
+.sections .services h2 {
+     margin-bottom: 25px;
+}
+
+.sections .boxs {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     width: 100%;
+     margin: auto;
+     margin-bottom: 50px;
+     transition: 0.7s;
+}
+
+.sections .boxs .child {
+     width: 23%;
+     padding: 30px 5px;
+     background-color: rgb(65, 65, 65);
+     margin-bottom: 20px;
+}
+
+.sections .boxs .child h2 {
+     cursor: pointer;
+     transition: all 0.5s;
+}
+
+.sections .boxs .child:hover h2 {
+     color: red;
+}
+
+.sections .Pbuttom {
+     margin-bottom: 30px;
+}
+
+.sections .Pbuttom h2 {
+     margin-bottom: 20px;
+}
+
+/*  */
+
+section {
+     color: white;
+     text-align: center;
+     padding: 40px 20px;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+section .contact-us {
+     width: 100%;
+}
+
+section .contact-us h2 {
+     margin-bottom: 20px;
+}
+
+section .contact-us p {
+     margin-bottom: 30px;
+}
+
+section .contact {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+}
+
+section .contact .location {
+     width: 40%;
+     background-color: rgb(65, 65, 65);
+     border-top: 5px solid red;
+     border-bottom: 5px solid red;
+     padding: 20px 10px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+}
+
+section .contact .location .locationAddress {
+     width: 100%;
+     margin-bottom: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-end;
+     flex-direction: row-reverse;
+}
+
+section .contact .location .email {
+     width: 100%;
+     margin-bottom: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-end;
+     flex-direction: row-reverse;
+}
+
+section .contact .location .number {
+     width: 100%;
+     margin-bottom: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-end;
+     flex-direction: row-reverse;
+
+}
+
+section .contact .location .locationAddress div,
+section .contact .location .email div,
+section .contact .location .number div {
+     width: 90%;
+     text-align: right;
+}
+
+section .contact .location .locationAddress div>h3,
+section .contact .location .email div>h3,
+section .contact .location .number div>h3 {
+     margin-bottom: 10px;
+     color: white;
+}
+
+section .contact .location .locationAddress div>p,
+section .contact .location .email div>p,
+section .contact .location .number div>p {
+     color: white;
+}
+section .contact .location .locationAddress i,
+section .contact .location .email i,
+section .contact .location .number i{
+     width: 10%;
+     height: 35px;
+     padding-top: 15px;
+     color: red;
+     background-color: rgb(36, 36, 36);
+     border-radius: 50%;
+}
+section .contact .location .locationAddress:hover i,
+section .contact .location .email:hover i,
+section .contact .location .number:hover i{
+     color: rgb(36, 36, 36);
+     background-color: red;
+}
+
+section .contact .location iframe {
+     width: 90%;
+     height: 460px;
+     margin: auto;
+}
+
+/*  */
+section .contact .contact-form {
+     background-color: rgb(65, 65, 65);
+     border-top: 5px solid red;
+     border-bottom: 5px solid red;
+     width: 50%;
+     padding: 40px;
+     text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+section .contact .contact-form form {
+     width: 100%;
+}
+
+section .contact .contact-form form .firstRow {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+section .contact .contact-form form .firstRow div {
+     width: 50%;
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 30px;
+}
+
+section .contact .contact-form form .firstRow div>label {
+     width: 100%;
+     text-align: right;
+     margin-bottom: 15px;
+}
+
+section .contact .contact-form input,
+section .contact .contact-form textarea {
+     background-color: var(--black-background);
+     color: var(--semi-white-font);
+}
+
+section .contact .contact-form form .firstRow div>input {
+     width: 95%;
+     line-height: 28px;
+}
+
+section .contact .contact-form form .secondRow {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-bottom: 30px;
+}
+
+section .contact .contact-form form .secondRow label {
+     width: 100%;
+     text-align: right;
+     margin-bottom: 5px;
+     margin-bottom: 15px;
+}
+
+section .contact .contact-form form .secondRow input {
+     width: 97.5%;
+     line-height: 28px;
+}
+
+section .contact .contact-form form .thirdRow {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-bottom: 30px;
+}
+
+section .contact .contact-form form .thirdRow label {
+     width: 100%;
+     text-align: right;
+     margin-bottom: 5px;
+     margin-bottom: 15px;
+}
+
+section .contact .contact-form form .thirdRow textarea {
+     width: 97.5%;
+}
+
+section .contact .contact-form form button {
+     padding: 20px;
+     font-size: 16px;
+     border-radius: 5px;
+     border: 0px solid black;
+     background-color: red;
+     color: white;
+     transition: all 0.5s;
+}
+
+section .contact .contact-form form button:hover {
+     background-color: blue;
+     cursor: pointer;
+}
+
+.container3 {
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     background-color: rgb(65, 65, 65);
+     padding: 50px 20px 20px;
+     border-left: 5px solid red;
+     margin-left: 100px;
+     margin-right: 100px;
+     border-right: 5px solid red;
+}
+
+.container3 .SiteName {
+     text-align: center;
+     width: 100%;
+     margin-bottom: 20px;
+}
+
+.container3 .SiteName h2 {
+     color: white;
+     font-weight: bold;
+     font-size: 35px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container3 hr {
+     width: 100%;
+     margin-bottom: 30px;
+}
+
+.container3 .copy-right {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+}
+
+.container3 .copy-right .creator {
+     width: 50%;
+     text-align: right;
+     font-size: 14px;
+}
+
+.container3 .copy-right .creator p a {
+     color: red;
+     cursor: pointer;
+}
+
+.container3 .copy-right .endOfPage {
+     width: 50%;
+     text-align: left;
+     font-size: 14px;
+}
+
+.container3 .copy-right .endOfPage span {
+     font-weight: bold;
+}
+
+header .toggler {
+     display: none;
+}
+
+header .toggler i {
+     color: white;
+     margin: 20px;
+     margin-top: 50px;
+     font-size: 30px;
+
+}
+
+/*                                                                     */
+/* @media (max-width: 750px) {
+     header .nav ul li {
+          display: none;
+     }
+     header .toggler {
+          display: block;
+     }
+     header .toggler i {
+          font-size: 25px;
+          color: black;
+          margin-top: 41px;
+          margin-left: -25px;
+     }
+     header .Telelogo a {
+          margin-right: -35px;
+     }
+     .container .img {
+          margin-top: -90px;
+          margin-right: 90px;
+     }
+.container .img img {
+     margin-right: -140px;
+     width: 230%;
+     }
+.container .Teletext{
+     margin-top: -130px;
+}
+.container .Teletext a{
+     margin-right: 1px;
+}
+.container2 .boxs .child{
+     width: 90%;
+}
+section .contact{
+     flex-wrap: wrap;
+}
+section .contact .location{
+     width: 100%;
+     margin-bottom: 40px;
+}
+section .contact .location .locationAddress i,
+section .contact .location .email i,
+section .contact .location .number i{
+     width: 30px;
+     height: 30px;
+}
+section .contact .contact-form{
+     width: 100%;
+}
+.container3{
+margin: 0px 0px;
+}
+.container3 .copy-right .creator{
+     width: 100%;
+     text-align: center;
+     margin-bottom: 5px;
+}
+.container3 .copy-right .endOfPage{
+     width: 100%;
+     text-align: center;
+     margin-top: 5px;
+}
+} */
+
+@media (max-width: 950px) {
+     header{
+          width: 80%;
+     }
+     
+     header .nav ul li {
+          display: none;
+     }
+     header .toggler {
+          display: block;
+          margin-top: -10px;
+     }
+     header .toggler i {
+          font-size: 26px;
+          color: black;
+          margin-top: 41px;
+          margin-left: -25px;
+     }
+     header .Telelogo  {
+          width: 50%;
+          text-align: right;
+          padding-right: 20px;
+     }
+     .container .img {
+          margin-top: -100px;
+          width: 60%;
+          text-align: right;
+          padding-right: 20px;
+          margin-left: 90px;
+     }
+.container .img img {
+     margin-right: -140px;
+     width: 150%;
+     }
+.container .Teletext{
+     margin-top: -140px;
+     width: 100%;
+}
+.container2 .boxs .child{
+     width: 45%;
+}
+section .contact{
+     flex-wrap: wrap;
+}
+section .contact .location{
+     width: 90%;
+     margin-bottom: 40px;
+}
+
+section .contact .location .locationAddress i,
+section .contact .location .email i,
+section .contact .location .number i{
+     width: 30px;
+     height: 30px;
+}
+section .contact .contact-form{
+     width: 84%;
+}
+.container3{
+margin: 10px 50px;
+}
+.container3 .copy-right .creator{
+     width: 100%;
+     text-align: center;
+     margin-bottom: 5px;
+}
+.container3 .copy-right .endOfPage{
+     width: 100%;
+     text-align: center;
+     margin-top: 5px;
+}
+}
