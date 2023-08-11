@@ -490,70 +490,6 @@ header .toggler i {
 }
 
 /*                                                                     */
-/* @media (max-width: 750px) {
-     header .nav ul li {
-          display: none;
-     }
-     header .toggler {
-          display: block;
-     }
-     header .toggler i {
-          font-size: 25px;
-          color: black;
-          margin-top: 41px;
-          margin-left: -25px;
-     }
-     header .Telelogo a {
-          margin-right: -35px;
-     }
-     .container .img {
-          margin-top: -90px;
-          margin-right: 90px;
-     }
-.container .img img {
-     margin-right: -140px;
-     width: 230%;
-     }
-.container .Teletext{
-     margin-top: -130px;
-}
-.container .Teletext a{
-     margin-right: 1px;
-}
-.container2 .boxs .child{
-     width: 90%;
-}
-section .contact{
-     flex-wrap: wrap;
-}
-section .contact .location{
-     width: 100%;
-     margin-bottom: 40px;
-}
-section .contact .location .locationAddress i,
-section .contact .location .email i,
-section .contact .location .number i{
-     width: 30px;
-     height: 30px;
-}
-section .contact .contact-form{
-     width: 100%;
-}
-.container3{
-margin: 0px 0px;
-}
-.container3 .copy-right .creator{
-     width: 100%;
-     text-align: center;
-     margin-bottom: 5px;
-}
-.container3 .copy-right .endOfPage{
-     width: 100%;
-     text-align: center;
-     margin-top: 5px;
-}
-} */
-
 @media (max-width: 950px) {
      header{
           width: 80%;
@@ -624,5 +560,87 @@ margin: 10px 50px;
      width: 100%;
      text-align: center;
      margin-top: 5px;
+}
+}
+@media (max-width: 750px) {
+     header .nav ul li {
+          display: none;
+     }
+     header .toggler {
+          display: block;
+     }
+     header .toggler i {
+          font-size: 25px;
+          color: black;
+          margin-top: 41px;
+          margin-left: -25px;
+     }
+     header .Telelogo a {
+          margin-right: -35px;
+     }
+     .container .img {
+          margin-top: -90px;
+          margin-right: 90px;
+     }
+.container .img img {
+     margin-right: -140px;
+     width: 230%;
+     }
+.container .Teletext{
+     margin-top: -130px;
+}
+.container .Teletext a{
+     margin-right: 1px;
+}
+.container2 .boxs .child{
+     width: 90%;
+}
+section .contact{
+     flex-wrap: wrap;
+}
+section .contact .location{
+     width: 100%;
+     margin-bottom: 40px;
+}
+section .contact .location .locationAddress i,
+section .contact .location .email i,
+section .contact .location .number i{
+     width: 30px;
+     height: 30px;
+}
+section .contact .contact-form{
+     width: 100%;
+}
+.container3{
+margin: 0px 0px;
+}
+.container3 .copy-right .creator{
+     width: 100%;
+     text-align: center;
+     margin-bottom: 5px;
+}
+.container3 .copy-right .endOfPage{
+     width: 100%;
+     text-align: center;
+     margin-top: 5px;
+}
+}
+@media (max-width: 600px){
+     .container {
+          width: 97%;
+}
+header .Telelogo a {
+     margin-right: -25px;
+}
+header .toggler i {
+     margin-left: 2px;
+}
+.container .img img {
+margin-right: -90px;
+width: 198%;
+}
+.container .Teletext{
+     margin-top: -130px;
+     margin-right: 100px;
 }
 }
